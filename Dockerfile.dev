@@ -1,3 +1,4 @@
+
 # Use a small and trusted base image
 FROM node:18-alpine as build
 
@@ -36,4 +37,4 @@ RUN npm install -g nodemon
 
 # Expose the port and start the app with nodemon
 EXPOSE 3000
-CMD ["npm", "run","dev"]
+CMD ["nodemon", "server.js"]
