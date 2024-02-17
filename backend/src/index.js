@@ -2,6 +2,8 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const mongoCon = require("./connection/mongoCon");
+const cors = require("cors");
+
 const port = process.env.PORT || 3000;
 
 const notFound = require("./middleware/not-found");
@@ -11,6 +13,9 @@ const wordRoute = require("./routes/word");
 
 // handel req.body
 app.use(express.json());
+
+// Enable CORS for all origins
+app.use(cors());
 
 // Routes
 app.use("/api/v1", wordRoute);
