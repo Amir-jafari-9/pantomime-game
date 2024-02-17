@@ -1,3 +1,4 @@
+
 # Use a small and trusted base image
 FROM node:18-alpine as build
 
@@ -33,4 +34,4 @@ ENV NODE_ENV=production
 
 # Expose the port and start the app
 EXPOSE 3000
-CMD ["npm", "run","dev"]
+CMD ["node", "server.js"]
