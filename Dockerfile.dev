@@ -1,0 +1,20 @@
+# Stage 1: Build the application
+FROM node:18_alpine as builder
+
+WORKDIR /app
+
+COPY package*.json .
+
+RUN npm ci --only=production
+
+COPY . .
+
+RUN npm install
+
+EXPOSE 3000
+
+COPY --from=builder /app/package.json .
+COPY --from=builder /app/package-lock.json .
+
+
+CMD ["npm","run","dev"]
