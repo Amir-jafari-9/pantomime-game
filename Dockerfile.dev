@@ -36,4 +36,4 @@ RUN npm install -g nodemon
 
 # Expose the port and start the app with nodemon
 EXPOSE 3000
-CMD ["nodemon", "server.js"]
+CMD ["npm", "run","dev"]
