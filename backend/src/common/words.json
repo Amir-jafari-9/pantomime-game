@@ -1,0 +1,861 @@
+{
+    "item1": {
+        "categoryName": "حیوانات",
+        "words": [
+            {
+                "word": "گراز",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "پلنگ",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "شتر",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "گوزن",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "گرگ",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "زرافه",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "سمور",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "خرس",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "مارمولک",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کرگدن",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "اردک",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "سگ",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "گوزه",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "خرگوش",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "موش",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "زردآلو",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کفتار",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کیوسک",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "سنجاب",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "زالو",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "گوربچه",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "بوفالو",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "موزه‌مرغ",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "خروس",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "ببر",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "کفتر",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "مار",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "پنگوئن",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "زنبور",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "گوزیده",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کوسه",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "ماهی",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "خفاش",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بوم‌بوم",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بیمار",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "سوسمار",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "کوسک",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "گنجشک",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "مرغ",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کلاغ",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "گل‌آلود",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "خرس‌آلود",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "گربه",
+                "difficulty": "متوسط"
+            }
+        ]
+    },
+
+    "item2": {
+        "categoryName": "اشیاء",
+        "words": [
+            {
+                "word": "کتاب",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "مداد",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کیف",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کیبورد",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "ماوس",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "صندلی",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "میز",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کلاه",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "گوشی",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "لپتاپ",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "قلم",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "چراغ",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کاغذ",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "ماشین",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "کامپیوتر",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "چاقو",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "بشقاب",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "قاب عکس",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "پاپیروس",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "کاسه",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "گلابی",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "بسته‌بندی",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "جعبه",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "پرده",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "پایانه",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "تلویزیون",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "کنسول بازی",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "دوربین",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "آینه",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "گوشواره",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "ابریشم",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "موبایل",
+                "difficulty": "متوسط"
+            }
+        ]
+    },
+    "item3": {
+        "categoryName": "شغل",
+        "words": [
+            {
+                "word": "پزشک",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "مهندس",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "معلم",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بازیگر",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "نویسنده",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "شاعر",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "آشپز",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "نجار",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "راننده تاکسی",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "نانوا",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "آتش‌نشان",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "پلیس",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "باغبان",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "خیاط",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بانکدار",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "کشاورز",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "مسئول منابع انسانی",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "کارگر ساختمانی",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "مدیر شرکت",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "بازرس کیفیت",
+                "difficulty": "متوسط"
+            }
+        ]
+    },
+    "item4": {
+        "categoryName": "شخصیت ها",
+        "words": [
+            {
+                "word": "شجاع",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "خجالتی",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "خوش‌برخورد",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "بدجنس",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "خوش‌روی",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "مهربان",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "بی‌تفاوت",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "مشتاق",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "عصبانی",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "خواب‌آلود",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "متعادل",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "بی‌تردید",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "بی‌اعتماد",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "محتاط",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "خودمطمئن",
+                "difficulty": "سخت"
+            }
+        ]
+    },
+    "item5": {
+        "categoryName": "تفریحات",
+        "words": [
+            {
+                "word": "شنا کردن",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "دوچرخه سواری",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "پیاده روی",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "تماشای فیلم",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "خواندن کتاب",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "نقاشی کردن",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "آشپزی کردن",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بازی کردن",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "ویدیو بازی کردن",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "موسیقی گوش دادن",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "ورزش کردن",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "سفر کردن",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "مسافرت کردن",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "پیاده روی در طبیعت",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بازی تنیس",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "تماشای تئاتر",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "دویدن",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کوهنوردی",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "رقصیدن",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "گردش در بازار",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "گردش در شهر",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "آموزش دادن",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "نواختن ساز موسیقی",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "استفاده از روبات‌های برنامه‌نویسی",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "پزشکی موضوعی",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "بازی با حیوانات خانگی",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "نجات دادن حیوانات",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "باغبانی",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "آموزش حیوانات",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "نقاشی دیواری",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "کشاورزی",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "پرواز با پاراگلایدر",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "پارکور",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "پرواز با بالگرد",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "پاراگلایدینگ",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "کوه‌پیمایی",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "کمپینگ",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "پیاده روی در جنگل",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "ماهیگیری",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "شکار",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "مسافرت به کشورهای خارجی",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "مسافرت به جاذبه‌های گردشگری",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "توپ‌واری",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بازی فوتبال",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بازی بسکتبال",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بازی تنیس روی میز",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "بازی اسنوکر",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بازی بیلیارد",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بازی تنیس روی چمن",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بازی بدمینتون",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "بازی والیبال",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "بازی گلف",
+                "difficulty": "سخت"
+            }
+        ]
+    },
+    "item6": {
+        "categoryName": "موقعیت ها",
+        "words": [
+            {
+                "word": "درسخانه",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کتابخانه",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "پرده‌ای",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "پایگاه دانش",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "زمین بازی",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "آزمایشگاه",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "سالن ورزش",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "اتاق اجتماعات",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "سرایداری",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "فضای سبز",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "دفتر معلم",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "دفتر مدیر",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "سالن همایش",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "کافه مدرسه",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "سالن هنری",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "کلاس هنر",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "کلاس علوم",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کلاس ریاضیات",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "کلاس زبان",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "دانشگاه",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "سالن ورزش دانشگاه",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "کتابخانه دانشگاه",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "لابراتوار",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "منزل",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "فضای باز",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "محل کار",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "فضای عمومی",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "دفتر کار",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "فضای آموزشی",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "مرکز خرید",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "رستوران یا کافه",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "سینما",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "تئاتر",
+                "difficulty": "متوسط"
+            },
+            {
+                "word": "سوپرمارکت",
+                "difficulty": "آسان"
+            },
+            {
+                "word": "تالار عروسی",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "آموزشگاه رقص",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "مرکز آموزش موسیقی",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "استودیو فیلم‌سازی",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "استودیو عکاسی",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "بیمارستان",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "کلینیک",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "تراشه‌گری",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "ترمیمگری",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "پارک آبی",
+                "difficulty": "سخت"
+            },
+            {
+                "word": "سالن های تئاتر",
+                "difficulty": "متوسط"
+            }
+        ]
+    }
+}

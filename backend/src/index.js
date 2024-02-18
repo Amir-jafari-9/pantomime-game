@@ -1,4 +1,5 @@
 require("dotenv").config();
+require("express-async-errors");
 const express = require("express");
 const app = express();
 const mongoCon = require("./connection/mongoCon");
@@ -10,6 +11,7 @@ const notFound = require("./middleware/not-found");
 const errorHandlerMiddleware = require("./middleware/error_handler");
 
 const wordRoute = require("./routes/word");
+const { importData } = require("./common/importData");
 
 // handel req.body
 app.use(express.json());
@@ -30,6 +32,7 @@ const start = async () => {
             process.env.MONGO_URI,
             console.log("database connected ...")
         );
+        importData();
         app.listen(port, console.log(`server is listening to port ${port}...`));
     } catch (error) {
         console.log(error);
