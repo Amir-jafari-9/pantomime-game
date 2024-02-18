@@ -7,7 +7,7 @@ const WordSchema = new mongoose.Schema({
     },
     difficulty: {
         type: String,
-        enum: ["easy", "normal", "hard"]
+        enum: ["آسان", "متوسط", "سخت"]
     }
 });
 const CategorySchema = new mongoose.Schema({
