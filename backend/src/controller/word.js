@@ -1,12 +1,36 @@
+const CustomAPIError = require("../error/custom-error");
 const CategoryModel = require("../model/word");
+
+const test = (req, res) => {
+    res.status(200).json({
+        status: 200,
+        success: true,
+        message: "get word successfully",
+        data: {
+            category: "test",
+            difficulty: "test-difficulty",
+            word: "test word"
+        }
+    });
+};
 
 const getWord = async (req, res) => {
     const { category, difficulty } = req.body;
-    const categories = await CategoryModel.find({ categoryName: category });
+    if (!category || !difficulty) {
+        throw new CustomAPIError("category or difficulty is not valid", 404);
+    }
 
-    const filterByDifficulty = categories
-        .filter((category) => category.words[0].difficulty === difficulty)
-        .map((word) => word.words[0].word);
+    const [categoryData] = await CategoryModel.find({ categoryName: category });
+
+    if (!categoryData)
+        throw new CustomAPIError(`category '${category}' not found :( `, 404);
+
+    const filterByDifficulty = categoryData.words
+        .filter((word) => word.difficulty == difficulty)
+        .map((wordObj) => wordObj.word);
+
+    const randomNumber = Math.floor(Math.random() * filterByDifficulty.length);
+    const randomWord = filterByDifficulty[randomNumber];
 
     res.status(200).json({
         status: 200,
@@ -15,7 +39,7 @@ const getWord = async (req, res) => {
         data: {
             category: category,
             difficulty: difficulty,
-            word: filterByDifficulty
+            word: randomWord
         }
     });
 };
@@ -33,4 +57,4 @@ const addWord = async (req, res) => {
     });
 };
 
-module.exports = { getWord, addWord };
+module.exports = { getWord, addWord, test };
