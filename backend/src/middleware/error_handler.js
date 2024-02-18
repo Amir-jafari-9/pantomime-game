@@ -1,4 +1,5 @@
 const CustomAPIError = require("../error/custom-error");
+const rateLimiter = require("express-rate-limit");
 const errorHandlerMiddleware = async (err, req, res, next) => {
     if (err instanceof CustomAPIError) {
         return res.status(err.statusCode).json({

@@ -1,23 +1,46 @@
 require("dotenv").config();
 require("express-async-errors");
-const express = require("express");
-const app = express();
-const mongoCon = require("./connection/mongoCon");
+// extra security packages
+const helmet = require("helmet");
 const cors = require("cors");
 
-const port = process.env.PORT || 3000;
+const rateLimiter = require("express-rate-limit");
 
+const express = require("express");
+const app = express();
+
+const mongoCon = require("./connection/mongoCon");
+const { importData } = require("./common/importData");
+
+// routers
+const wordRoute = require("./routes/word");
+
+// error handler
 const notFound = require("./middleware/not-found");
 const errorHandlerMiddleware = require("./middleware/error_handler");
 
-const wordRoute = require("./routes/word");
-const { importData } = require("./common/importData");
+const port = process.env.PORT || 3000;
 
 // handel req.body
 app.use(express.json());
 
-// Enable CORS for all origins
+app.use(
+    rateLimiter({
+        windowMs: 15 * 60 * 1000, // 15 minutes
+        max: 5, // limit each IP to 100 requests per windowMs
+        handler: function (req, res /*, next*/) {
+            res.status(429).json({
+                status: 429,
+                success: false,
+                message:
+                    "Too many requests from this IP, please try again later.",
+                data: null
+            });
+        }
+    })
+);
 app.use(cors());
+app.use(helmet());
 
 // Routes
 app.use("/api/v1", wordRoute);
